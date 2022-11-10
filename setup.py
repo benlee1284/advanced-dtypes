@@ -20,4 +20,8 @@ setuptools.setup(
     py_modules=["advanced_dtypes"],
     package_dir={"":"."},
     install_requires=[],
+    project_urls={
+        'Source': 'https://github.com/benlee1284/advanced-dtypes',
+        'Tracker': 'https://github.com/benlee1284/advanced-dtypes/issues',
+    },
 )
