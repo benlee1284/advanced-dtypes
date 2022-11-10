@@ -5,7 +5,7 @@ with open("README.md", "r") as fh:
 
 setuptools.setup(
     name="advanced-dtypes",
-    version="0.0.1",
+    version="0.0.2",
     author="Ben Lee",
     description="Data types not found in the standard library that are cool in various different ways ;)",
     long_description=long_description,
