@@ -78,7 +78,7 @@ class FastEnum(metaclass=FastEnumMeta):
 	_hash: int
 
 	def __repr__(self) -> str:
-		return f'{self.__class__.__name__}.{self.name}'
+		return f'<{self.__class__.__name__}.{self.name}: {self.value}>'
 
 	def __hash__(self) -> int:
 		return self._hash
